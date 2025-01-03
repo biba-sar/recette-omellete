@@ -130,150 +130,130 @@ td{
 @media (max-width: 768px) {
           /* Styles globaux (Mobile First) */
     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    width: 100%;
-    background-color: hsl(330, 100%, 98%);
-}
-
-.container {
-    width: 100%;
-    max-width: 95%; /* Réduction de la largeur pour s'adapter aux petits écrans */
-    background-color: hsl(0, 0%, 100%);
-    margin: 20px auto; /* Réduction des marges */
-    border-radius: 15px;
-}
-
-.content {
-    padding: 15px; /* Réduction des espaces */
-    align-items: center;
-}
-
-img {
-    width: 100%; /* Image responsive */
-    max-width: 100%; /* Empêche tout dépassement */
-    border-radius: 12px;
-    margin-bottom: 10px; /* Moins d'espace sous les images */
-}
-
-.recipe, .preparation, .ingredients, .instruction, .nutrition {
-    margin-bottom: 20px;
-    font-family: 'Outfit', sans-serif;
-}
-.recipe h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px; /* Réduction de la taille de police */
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-.recipe p {
-    font-size: 14px; /* Réduction pour mieux s'adapter */
-    font-weight: 500;
-    line-height: 22px;
-    color: hsl(30, 10%, 34%);
-}
-
-h2 {
-    font-size: 20px; /* Taille plus petite pour les titres */
-}
-
-.preparation h2 {
-    color: hsl(332, 51%, 32%);
-    padding-top: 10px;
-}
-
-.preparation, .time {
-    width: auto; /* Suppression de la largeur fixe */
-    background-color: hsl(330, 100%, 98%);
-    padding: 10px; /* Réduction des paddings */
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.preparation ul li {
-    margin-left: 12px;
-    padding: 10px 0 7px 7px;
-    font-size: 14px;
-}
-
-.ingredients h2 {
-    color: hsl(14, 45%, 36%);
-    margin-bottom: 8px;
-}
-
-.ingredients ul li {
-    padding: 10px 0 0 10px;
-    margin-left: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    color: hsl(30, 10%, 34%);
-}
-
-ul li::marker {
-    color: hsl(14, 45%, 36%);
-    font-weight: 400;
-}
-
-.instruction ol li::marker {
-    color: hsl(14, 45%, 36%);
-    font-weight: 1000;
-    font-size: 12px; /* Réduction de la taille */
-}
-
-.instruction h2 {
-    color: hsl(14, 45%, 36%);
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-.instruction ol li {
-    padding: 5px 0 5px 12px;
-    margin-left: 10px;
-    line-height: 22px; /* Réduction de l'espacement entre lignes */
-}
-
-.nutrition h2 {
-    color: hsl(14, 45%, 36%);
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-.nutrition p {
-    font-size: 14px;
-    color: gray;
-    font-weight: 500;
-}
-
-table {
-    width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        width: 100%;
+        background-color: hsl(330, 100%, 98%);
+    }
+    .container {
+        width: 100%;
+        max-width: 95%; /* Réduction de la largeur pour s'adapter aux petits écrans */
+        background-color: hsl(0, 0%, 100%);
+        margin: 20px auto; /* Réduction des marges */
+        border-radius: 15px;
+    }
+    .content {
+        padding: 15px; /* Réduction des espaces */
+        align-items: center;
+    }
+    img {
+        width: 100%; /* Image responsive */
+        max-width: 100%; /* Empêche tout dépassement */
+        border-radius: 12px;
+        margin-bottom: 10px; /* Moins d'espace sous les images */
+    }
+    .recipe, .preparation, .ingredients, .instruction, .nutrition {
+        margin-bottom: 20px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .recipe h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px; /* Réduction de la taille de police */
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .recipe p {
+        font-size: 14px; /* Réduction pour mieux s'adapter */
+        font-weight: 500;
+        line-height: 22px;
+        color: hsl(30, 10%, 34%);
+    }
+    h2 {
+        font-size: 20px; /* Taille plus petite pour les titres */
+    }
+    .preparation h2 {
+        color: hsl(332, 51%, 32%);
+        padding-top: 10px;
+    }
+    .preparation, .time {
+        width: auto; /* Suppression de la largeur fixe */
+        background-color: hsl(330, 100%, 98%);
+        padding: 10px; /* Réduction des paddings */
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .preparation ul li {
+        margin-left: 12px;
+        padding: 10px 0 7px 7px;
+        font-size: 14px;
+    }
+    .ingredients h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 8px;
+    }
+    .ingredients ul li {
+        padding: 10px 0 0 10px;
+        margin-left: 15px;
+        font-weight: 500;
+        font-size: 14px;
+        color: hsl(30, 10%, 34%);
+    }
+    ul li::marker {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+    }
+    .instruction ol li::marker {
+        color: hsl(14, 45%, 36%);
+        font-weight: 1000;
+        font-size: 12px; /* Réduction de la taille */
+    }
+    .instruction h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .instruction ol li {
+        padding: 5px 0 5px 12px;
+        margin-left: 10px;
+        line-height: 22px; /* Réduction de l'espacement entre lignes */
+    }
+    .nutrition h2 {
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .nutrition p {
+        font-size: 14px;
+        color: gray;
+        font-weight: 500;
+    }   
+    table {
+     width: 100%;
     border-collapse: collapse;
     margin-top: 10px; /* Moins d'espacement */
-}
-th, td {
-    border-bottom: 1px solid hsl(30, 18%, 87%);
-    padding: 10px;
-} 
-table th {
-    font-size: 14px; /* Réduction de la taille de police */
-    color: gray;
-    font-weight: 500;
-    text-align: start;
-    padding-left: 10px;
-}
-
-td {
-    font-size: 14px;
-    color: hsl(14, 45%, 36%);
-    font-weight: 600;
-}
-
-.attribution {
-    text-align: center;
-    font-size: 12px; /* Texte plus petit */
-}
+    }
+    th, td {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding: 10px;
+    } 
+    table th {
+        font-size: 14px; /* Réduction de la taille de police */
+        color: gray;
+        font-weight: 500;
+        text-align: start;
+        padding-left: 10px;
+    }
+    td {
+        font-size: 14px;
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+    }
+    .attribution {
+        text-align: center;
+        font-size: 12px; /* Texte plus petit */
+    }
 }
